@@ -2,9 +2,11 @@
 
 use Slim\Http\Environment;
 use Slim\Http\Request;
+use PHPUnit\Framework\TestCase;
+
 require 'App.php';
 
-class RootTest extends PHPUnit_Framework_TestCase
+class RootTest extends TestCase
 {
     protected $app;
 
